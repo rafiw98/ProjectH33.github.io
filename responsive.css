@@ -1,0 +1,92 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+	.menu-icon {
+        display: none;
+	}
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2{
+    font-size: 20px;
+  }
+  .team {
+    width: 50%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+        display: block;
+    }
+  .btn{
+	  width: 100%;
+  }
+  .facebook{
+	  margin-bottom: 10px;
+  }
+  .top-wrapper {
+    text-align: left;
+	padding-top: 130px;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+   .team {
+    width: 100%;
+  }
+  input, textarea{
+	  text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+  
+}
+
+/* Untuk IPUN 5 */
+@media all and (max-width: 570px) {
+  .header-right {
+    display: none;
+  }
+  .btn{
+	  width: 100%;
+  }
+  .facebook{
+	  margin-bottom: 10px;
+  }
+  .menu-icon {
+        display: block;
+    }
+  .top-wrapper {
+    text-align: left;
+	padding-top: 130px;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+   .team {
+    width: 100%;
+  }
+  input, textarea{
+	  text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+}
