@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:link {
+    text-decoration: none;
+  }
+body {
+  margin: 0;
+  font-family: courier;
+}
+
+a {
+  text-decoration: none;
+  font-size:20px;
+}
+li {
+  list-style: none;
+}
+p{
+    font-size: 15px;
+}
+.clear{
+	clear:left;
+}
+.container{
+    max-width:1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
+/*Bagian Utama*/
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://i.imgur.com/C2Sn1X9.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  font-size:16px
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+/*--------*/
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+/*untuk menu header*/
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+  opacity: 0.8;
+}
+.header-list li:hover{
+	opacity: 1;
+}
+
+header{
+    background-color: black;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+	top: 0;
+	opacity: 0.8;
+	animation-name: header;
+  	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes header {
+  0%   {background-color: black;}
+  25%  {background-color: #55acee;}
+  50%  {background-color: #3b5998;}
+  100% {background-color: #239b76;}
+}
+
+.header-left img{
+    width: 100px;
+    float: left;
+    padding-top: 10px;
+}
+.header-right{
+    float: right;
+    margin-right: 25px;
+    font-size: 12px;
+ }
+
+
+
+.header-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+.header-right a:hover{
+    background-color: rgba(1, 196, 255, 0.8);
+  }
+  .menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  
+}
+  /*--------*/
+  /*untuk menu ekstra 1*/ 
+  .team-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .team {
+    float: left;
+    width: 20%;
+    padding: 10px;
+  }
+  
+  .team-icon {
+    position: relative;
+  }
+  .team-icon img{
+	  border-radius: 50%;
+  }
+    
+  .text-contents {
+    width: 90%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color:#000;
+  }
+  /*--------*/
+/*untuk menu extra2*/
+.contact-wrapper{
+	float:;
+	height: 500px;
+  	padding-bottom: 80px;
+  	background-color: #f7f7f7;
+	text-align:center;
+}
+.contact-wrapper h2{
+	border-bottom: 2px solid #dee7ec;
+	font-weight: normal;
+}
+
+.contact-submit{
+	padding: 15px 40px;
+  	background-color:#6F3;
+  	color:#333;
+  	opacity: 0.8;
+  	cursor: pointer;
+  	box-shadow: 0 7px #1a7940;
+}
+.contact-submit:active{
+	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+	
+}
+
+input, textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+/*--------*/
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: black;
+  opacity: 0.8;
+  animation-name: footer;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes footer {
+  0%   {background-color: black;}
+  25%  {background-color: #55acee;}
+  50%  {background-color: #3b5998;}
+  100% {background-color: #239b76;}
+}
